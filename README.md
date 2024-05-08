@@ -1,4 +1,4 @@
-##Accompanying Code for the Chapter "Latent Gaussian Models and Computation for Large Spatial Data" in the Handbook of MCMC
+## Accompanying Code for the Chapter "Latent Gaussian Models and Computation for Large Spatial Data" in the Handbook of MCMC
 
 Authors: Murali Haran, John Hughes, and Ben Seiyon Lee
 
