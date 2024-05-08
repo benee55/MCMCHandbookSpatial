@@ -9,8 +9,8 @@ Code for the following examples:
 3. Hermit Thrush Presence (n=4,937 areal units)
 
 <p float="left">
-  <img src="/MODIS_precipitableWater/TotalPrecipitableWater.png" width="200" />
-  <img src="/hermit_thrush_BSF/thrushdata.png" width="200" />
+  <img src="/MODIS_precipitableWater/TotalPrecipitableWater.png" width="300" />
+  <img src="/hermit_thrush_BSF/thrushdata.png" width="500" />
 </p>
 
 
