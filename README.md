@@ -2,6 +2,7 @@
 
 Authors: Murali Haran, John Hughes, and Ben Seiyon Lee
 
+This repository contains the accompanying code for the book chapter "Latent Gaussian Models and Computation for Large Spatial Data" in the Handbook of MCMC. We provide instructions for implementing the featured approaches for the following three examples: 
 
 Code for the following examples:
 1. Hermit Thrush Presence (n=4,937 areal units)
@@ -38,7 +39,7 @@ The following programming environments must be installed prior to running the co
 
 Before running any code, make sure the required R packages and programming environments (nimble and stan) have been installed.  Set the R working directory to the location of this README file.
 
-### Hermit Thrush Example 
+### Example 1: Hermit Thrush Example 
 - Fit model using stan: `/hermit_thrush_BSF/thrush_stan.R`
 - Data including thursh presence, cover, elevation, and locations (x and y): `/hermit_thrush_BSF/thrush_data.csv`
 - Adjacency matrix: `/hermit_thrush_BSF/thrush_adjacency.txt`
