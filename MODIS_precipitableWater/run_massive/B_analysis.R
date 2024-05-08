@@ -1,5 +1,5 @@
 rm(list=ls())
-library(fields);library(classInt); library(nimble)
+library(fields);library(nimble)
 setwd("~/MCMCHandbook/PrecipitationExample/output/")
 ####################################
 load("../samples/precipData.RData")

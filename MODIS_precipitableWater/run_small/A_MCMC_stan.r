@@ -6,7 +6,7 @@
 ################################################################################################
 rm(list=ls())
 setwd("~/MCMCHandbook/PrecipitationExample/run_bisquare_small/")
-library(fields) ; library(mvtnorm) ; library(classInt); 
+library(fields) ; library(mvtnorm)
 library(rstan) ; library(nimble);
 # options(mc.cores = parallel::detectCores())
 source("../source/sharedFunctions.R") # Helper file with functions

@@ -1,6 +1,5 @@
 rm(list=ls())
-library(fields);library(classInt);library(nimble)# Load packages
-library(nimble);
+library(fields);library(nimble)# Load packages
 setwd("~/MCMCHandbook/PrecipitationExample/run_bisquare/")
 ####################################
 source("../source/sharedFunctions.R") # File with useful functions
