@@ -8,8 +8,10 @@ Code for the following examples:
 2. MODIS Total Precipitable Water - Small (n=20,000 locations)
 3. Hermit Thrush Presence (n=4,937 areal units)
 
-<img src="/MODIS_precipitableWater/TotalPrecipitableWater.png" width="700">
-
+<p float="left">
+  <img src="/MODIS_precipitableWater/TotalPrecipitableWater.png" width="200" />
+  <img src="/hermit_thrush_BSF/thrushdata.pdf" width="200" />
+</p>
 
 
 ## Required Packages:
