@@ -8,4 +8,31 @@ Code for the following examples:
 2. MODIS Total Precipitable Water - Small (n=20,000 locations)
 3. Hermit Thrush Presence (n=4,937 areal units)
 
+<p float="left">
+  <img src="/MODIS_precipitableWater/TotalPrecipitableWater.png" width="200" />
+  <img src="/hermit_thrush_BSF/thrushdata.pdf" width="200" />
+</p>
 
+
+## Required Packages:
+The code has been tested with R version 4.1.1, "Kick Things."  The following R packages must be installed before the code will run successfully:
+
+### Hermit Thrush Example
+- `cmdstanr`
+- `RSpectra`
+- `parallel`
+
+### MODIS Example
+- `fields`
+- `mvtnorm`
+- `classInt`
+- `nimble`
+- `rstan`
+
+The following programming environments must be installed prior to running the code:
+- `nimble`
+- `stan`
+
+## Instructions
+
+Before running any code, make sure the required R packages and programming environments (nimble and stan) have been installed.  Set the R working directory to the location of this README file.
