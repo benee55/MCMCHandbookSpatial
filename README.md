@@ -10,7 +10,7 @@ Code for the following examples:
 
 <p float="left">
   <img src="/MODIS_precipitableWater/TotalPrecipitableWater.png" width="200" />
-  <img src="/hermit_thrush_BSF/thrushdata.pdf" width="200" />
+  <img src="/hermit_thrush_BSF/thrushdata.png" width="200" />
 </p>
 
 
