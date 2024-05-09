@@ -58,6 +58,8 @@ Before running any code, make sure the required R packages and programming envir
 <p float="left">
   <img src="/MODIS_precipitableWater/source/figures/bisquareBasis.png" width="300" />
   <img src="/MODIS_precipitableWater/source/figures/BS_Basis_1.png" width="300" />
+  </p>
+  <p float="left">
   <img src="/MODIS_precipitableWater/source/figures/BS_Basis_2.png" width="300" />
   <img src="/MODIS_precipitableWater/source/figures/BS_Basis_3.png" width="300" />
 </p>
