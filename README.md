@@ -54,6 +54,17 @@ Before running any code, make sure the required R packages and programming envir
   + `C_SampleGeneration_small.R`: Generates training and test data for small dataset (n=20,000 locations)
   + `D_GenerateBisquareBases.R`: Builds bisquare basis functions
   + All datasets are saved in the folder `/MODIS_precipitableWater/samples/`
+
+<p float="left">
+  <img src="/MODIS_precipitableWater/source/figures/bisquareBasis.png" width="300" />
+  <img src="/MODIS_precipitableWater/source/figures/BS_Basis_1.png" width="300" />
+</p>
+<p float="left">
+  <img src="/MODIS_precipitableWater/source/figures/BS_Basis_2.png" width="300" />
+  <img src="/MODIS_precipitableWater/source/figures/BS_Basis_3.png" width="300" />
+</p>
+
+
 - Helper files `/MODIS_precipitableWater/source/`
   + `batchmeans.r`: File to compute Montel Carlo standard errors (batch means)
   + `sharedFunctions.R`: Miscellaneous helper functions stored here.
