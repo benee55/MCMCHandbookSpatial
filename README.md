@@ -44,4 +44,33 @@ Before running any code, make sure the required R packages and programming envir
 - Data including thursh presence, cover, elevation, and locations (x and y): `/hermit_thrush_BSF/thrush_data.csv`
 - Adjacency matrix: `/hermit_thrush_BSF/thrush_adjacency.txt`
 - Helper functions saved in:
-  + `/hermit_thrush_BSF/thrush.stan` 
+  + `/hermit_thrush_BSF/thrush.stan`
+
+### Example 2 and 3: MODIS
+1. Generate samples by running the following files in `/MODIS_precipitableWater/dataProcessing/`
+  + `A_MCMCHandbookMODIS.py': Extracts data from hdf file
+  + `B_MODISGenerateData.R`: Pre-processes data
+  + `C_SampleGeneration_massive.R`: Generates training and test data for massive dataset (n=2,470,059 locations)
+  + `C_SampleGeneration_small.R`: Generates training and test data for small dataset (n=20,000 locations)
+  + `D_GenerateBisquareBases.R`: Builds bisquare basis functions
+  + All datasets are saved in the folder `/MODIS_precipitableWater/samples/`
+    
+2. Fit BR model on massive dataset via nimble
+  + Directory with relevant files is `/MODIS_precipitableWater/run_massive/`
+  + `A_MCMC.R`: Fits model using nimble
+  + `B_analysis.R`: File for validation   
+
+3. Fit BR model on massive dataset via nimble, stan, and spNNGP
+  + Directory with relevant files is `/MODIS_precipitableWater/run_small/`
+  + `A_MCMC.R`: Fits model using nimble
+  + `A_MCMC_stan.r`: Fits model using stan
+  + `A_MCMC_spNNGP.R`: Fits model using spNNGP
+  + `B_analysis.R`: File for validation
+
+4. Helper files `/MODIS_precipitableWater/source/`
+  + `batchmeans.r`: File to compute Montel Carlo standard errors (batch means)
+  + `sharedFunctions.R`: Miscellaneous helper functions stored here.
+  + `modelStan.stan`: stan file with relevant functions
+  + `modelNimble.R`: nimble file with relevant functions
+ 
+   
