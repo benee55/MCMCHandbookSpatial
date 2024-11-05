@@ -20,7 +20,7 @@ transformed parameters {
   vector[N] beta; //rate parameter for the gamma distribution
   linpred = X*betas+M*deltas;
   mu = exp(linpred); //using the log link 
-  beta = rep_vector(inverse_phi, N)./ mu; # Compound Elementwise Division
+  beta = rep_vector(inverse_phi, N)./ mu; // Compound Elementwise Division
 }
 
 model {  
