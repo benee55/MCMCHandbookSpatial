@@ -47,7 +47,7 @@ n<-length(obsMod)
 ################################################################################################
 # Fit Model Using Stan
 iter=5000
-gamma_samples<-stan(file="../source/gammaBasis.stan",
+gamma_samples<-stan(file="../source/modelStan.stan",
              data = list(N=n,
                          K=k,
                          P=p,
